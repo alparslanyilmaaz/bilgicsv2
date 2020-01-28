@@ -10,8 +10,9 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   isActive: boolean = false;
+
   ngOnInit() {
-    this.isActive= false;
+    
   }
 
   showNavigation(){
@@ -21,8 +22,5 @@ export class NavComponent implements OnInit {
     else{
       this.isActive = true;
     }
-
-    console.log(this.isActive);
   }
-
 }

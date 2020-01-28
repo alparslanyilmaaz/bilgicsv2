@@ -16,3 +16,7 @@
   font-weight: 500;
   color: black;
 }
+
+.nav-border{
+  border-bottom: 1px solid black;
+}

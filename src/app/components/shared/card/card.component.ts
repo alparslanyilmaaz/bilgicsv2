@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   @Input() cards:any[];
   slides:any[];
@@ -16,6 +17,6 @@ export class CardComponent implements OnInit {
   }
 
   navigateURL(url:string){
-    
+    this.router.navigateByUrl('/content/'+url);
   }
 }

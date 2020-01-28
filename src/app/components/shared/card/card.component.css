@@ -46,3 +46,15 @@
   font-size: 12px;
   font-weight: 300;
 }
+
+.card-title-date{
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
+
+.card-title-date p {
+  font-family: 'Montserrat', serif;
+  font-size: 12px;
+  font-weight: 300;
+}

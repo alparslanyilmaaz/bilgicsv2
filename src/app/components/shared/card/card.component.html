@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-12 col-md-4" *ngFor = "let card of cards">
+    <div class="card" (click) = "navigateURL(card.title)">
+      <div class="category">
+        <p>{{card.cardCategory}}</p>
+      </div>
+      <div class="card-image"[ngStyle]="{'background-image': 'url('+ card.imageUrl +')'}"></div>
+      <div class="card-title-text">
+        <p>{{card.title}}</p>
+      </div>
+      <div class="card-title-desc">
+        <p>{{card.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

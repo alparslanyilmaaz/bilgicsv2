@@ -1,0 +1,42 @@
+.carousel-container{
+  padding: 10px 40px; 
+  position:relative;
+}
+.cards-holder{
+  margin: auto;
+}
+.card-item{
+  height: 300px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.carousel{
+  margin-top: 30px;
+}
+
+.header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid #d6d6cc;
+  padding-bottom: 10px;
+}
+
+.see-more{
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #b8b8c7;
+  color: #333333;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/*
+  main-color : ;
+  alternative-light-tone : #eae6e0;
+  secondary-color: #aba18f;
+  white-tone : #f9f7f8;
+*/

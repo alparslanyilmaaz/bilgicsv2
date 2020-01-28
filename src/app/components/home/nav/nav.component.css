@@ -1,0 +1,75 @@
+.nav-bar{
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side{
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side h1{
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.left-side ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.left-side ul li{
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.more{
+  font-size: 25px;
+  color: #b9acac;
+}
+
+.right-side{
+  width: 50%;
+  height: 100%;
+}
+
+.general-right-holder{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  float: right;
+}
+
+.general-right-holder ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  
+}
+.general-right-holder ul li{
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.search{
+  font-size: 18px;
+  margin-right: 10px;
+}

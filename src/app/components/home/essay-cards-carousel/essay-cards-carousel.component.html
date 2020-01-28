@@ -1,0 +1,48 @@
+<section class="g-mt-30 g-mb-40">
+  <div class="container">
+    <div class="carousel-container">
+      <h4 class="header">WEEKLY ESSAYS</h4>
+      <a matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
+        [matRippleRadius]="radius" [matRippleColor]="color" href="#" class="see-more">see more</a>
+      <div style="position:absolute;
+  left:1px;
+  margin-top: 175px;
+  width:22px;
+  height:22px;
+  cursor:pointer;
+  font-size: 22px;
+  opacity: 0.5;"
+  (click) = "moveBefore()">
+        <i nz-icon nzType="left-circle" nzTheme="outline"></i>
+      </div>
+
+      <div style="position:absolute;
+                  right:1px;
+                  margin-top: 175px;
+                  width:22px;
+                  height:22px;
+                  cursor:pointer;
+                  font-size: 22px;
+                  opacity: 0.5;"
+                  (click) = "moveNext()">
+        <i nz-icon nzType="right-circle" nzTheme="outline"></i>
+      </div>
+
+      <nz-carousel class="carousel" nzAutoPlay [nzAutoPlaySpeed]="3000" [nzEffect]="effect" #carousel>
+        <div nz-carousel-content *ngFor="let item of slides">
+          <div class="row">
+            <div class="col-12 col-md-3" *ngFor="let card of item">
+              <nz-card nzHoverable class="card-holder-item" [nzCover]="coverTemplate" class="card-item">
+                <nz-card-meta [nzTitle]="card.firstName" class="card-holder-item-description"
+                  [nzDescription]="card.description"></nz-card-meta>
+              </nz-card>
+              <ng-template #coverTemplate>
+                <img class="card-item-image" [src]="card.img" />
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </nz-carousel>
+    </div>
+  </div>
+</section>

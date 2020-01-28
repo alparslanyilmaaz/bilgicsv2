@@ -9,7 +9,20 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
+  isActive: boolean = false;
   ngOnInit() {
+    this.isActive= false;
+  }
+
+  showNavigation(){
+    if(this.isActive){
+      this.isActive = false;
+    }
+    else{
+      this.isActive = true;
+    }
+
+    console.log(this.isActive);
   }
 
 }

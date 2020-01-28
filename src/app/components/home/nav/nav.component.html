@@ -1,27 +1,29 @@
-<div class="nav-bar">
-  <div class="left-side">
-    <h1>Bilgics</h1>
-
-    <ul>
-      <li matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-      [matRippleRadius]="radius" [matRippleColor]="color">Fashion</li>
-      <li matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-      [matRippleRadius]="radius" [matRippleColor]="color">Interviews</li>
-      <li matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-      [matRippleRadius]="radius" [matRippleColor]="color">Design</li>
-      <li matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-      [matRippleRadius]="radius" [matRippleColor]="color"><i class="more" nz-icon nzType="ellipsis" nzTheme="outline"></i></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="brand" href="#">Bilgics</a>
+  <button class="navbar-toggler" (click) = "showNavigation()" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" [ngClass]="{'show': isActive}" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active" matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
+      [matRippleRadius]="radius" [matRippleColor]="color"> 
+        <a class="nav-bar-item" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
+      [matRippleRadius]="radius" [matRippleColor]="color">
+        <a class="nav-bar-item" href="#">Features</a>
+      </li>
+      <li class="nav-item" matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
+      [matRippleRadius]="radius" [matRippleColor]="color">
+        <a class="nav-bar-item" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
     </ul>
   </div>
-  <div class="right-side">
-    <div class="general-right-holder">
-      <ul>
-        <li>Monday, 19 January 2020</li>
-        <div style="margin-left: 40px;"></div>
-        <li matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-        [matRippleRadius]="radius" [matRippleColor]="color"><i class="search" nz-icon nzType="search" nzTheme="outline"></i>Search</li>
-
-      </ul>
-    </div>
-  </div>
-</div>
+</nav>

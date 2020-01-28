@@ -23,6 +23,7 @@ import { ContentCardsComponent } from './components/home/content-cards/content-c
 import { ContentComponent } from './components/content/content.component';
 import { CardComponent } from './components/shared/card/card.component';
 import { TopSliderComponent } from './components/shared/top-slider/top-slider.component';
+import { RightSideComponent } from './components/shared/right-side/right-side.component';
 
 registerLocaleData(tr);
 
@@ -36,6 +37,7 @@ registerLocaleData(tr);
     ContentComponent,
     CardComponent,
     TopSliderComponent,
+    RightSideComponent,
    
   ],
   imports: [

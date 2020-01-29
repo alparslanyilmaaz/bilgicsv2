@@ -7,26 +7,34 @@
   width: 100%;
   height: 100%;
 }
-ul{
-  width: 100%;
-}
-li{
-  margin-top: 18px;
+
+.item-container{
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 span{
   color: black;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 18px;
   font-family: 'Montserrat', serif;
-  text-align: center;
+  overflow: hidden;
+  justify-content: start;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: .2s;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-span:hover{
-  background-color: black;
-  color: white;
-  transition: .2s;
+a{
+  padding-top: 30px;
+  color: black;
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Montserrat', serif;
+
 }

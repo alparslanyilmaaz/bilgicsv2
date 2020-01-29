@@ -24,6 +24,7 @@ import { ContentComponent } from './components/content/content.component';
 import { CardComponent } from './components/shared/card/card.component';
 import { TopSliderComponent } from './components/shared/top-slider/top-slider.component';
 import { RightSideComponent } from './components/shared/right-side/right-side.component';
+import { DailyPopularComponent } from './components/shared/right-side/daily-popular/daily-popular.component';
 
 registerLocaleData(tr);
 
@@ -38,6 +39,7 @@ registerLocaleData(tr);
     CardComponent,
     TopSliderComponent,
     RightSideComponent,
+    DailyPopularComponent,
    
   ],
   imports: [

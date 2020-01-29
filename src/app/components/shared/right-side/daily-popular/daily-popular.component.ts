@@ -34,23 +34,23 @@ export class DailyPopularComponent implements OnInit {
     {
       id: '1',
       cardCategory: 'Fashion',
-      title: 'For illustirator Doris Liou "drawings are about what you want to show others"'
+      title: 'Did you know penguins used to fly in ancient times!'
     },
     {
       id: '2',
-      title: 'For illustirator Doris Liou "drawings are about what you want to show others"'
+      title: 'Space mission ended sadly during this week :('
     },
     {
       id: '3',
-      title: 'For illustirator Doris Liou "drawings are about what you want to show others"'
+      title: 'Beyond music, The BEATLES'
     },
     {
       id: '4',
-      title: 'For illustirator Doris Liou "drawings are about what you want to show others"'
+      title: 'In universites this methods will end your lonely nights!'
     },
     {
       id: '5',
-      title: 'For illustirator Doris Liou "drawings are about what you want to show others"'
+      title: 'How could such a creature Survive in such a habitat? Can you explain :)'
     },
   ];
 }

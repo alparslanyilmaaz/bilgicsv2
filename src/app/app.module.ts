@@ -26,6 +26,8 @@ import { TopSliderComponent } from './components/shared/top-slider/top-slider.co
 import { RightSideComponent } from './components/shared/right-side/right-side.component';
 import { DailyPopularComponent } from './components/shared/right-side/daily-popular/daily-popular.component';
 import { MostPopularComponent } from './components/shared/right-side/most-popular/most-popular.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { TagsComponent } from './components/shared/right-side/tags/tags.component';
 
 registerLocaleData(tr);
 
@@ -42,6 +44,8 @@ registerLocaleData(tr);
     RightSideComponent,
     DailyPopularComponent,
     MostPopularComponent,
+    FooterComponent,
+    TagsComponent,
    
   ],
   imports: [

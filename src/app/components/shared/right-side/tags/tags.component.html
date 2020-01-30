@@ -1,0 +1,14 @@
+<div class="general-container">
+  <div class="title">
+    <p>tags</p>
+  </div>
+  <div class="tag">
+    <div class="row">
+      <div *ngFor="let tag of tags">
+        <nz-tag class="tag-item">
+          <a href="https://github.com/NG-ZORRO/ng-zorro-antd">{{tag.categoryName}}</a>
+        </nz-tag>
+      </div>
+    </div>
+  </div>
+</div>

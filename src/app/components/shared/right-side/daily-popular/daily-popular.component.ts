@@ -34,23 +34,28 @@ export class DailyPopularComponent implements OnInit {
     {
       id: '1',
       cardCategory: 'Fashion',
-      title: 'Did you know penguins used to fly in ancient times!'
+      title: 'About photo artist Clementine Frankestel',
+      imageUrl: 'https://images.pexels.com/photos/3484689/pexels-photo-3484689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
     {
       id: '2',
-      title: 'Space mission ended sadly during this week :('
+      title: 'Space mission ended sadly during this week :(',
+      imageUrl: 'https://images.pexels.com/photos/3484689/pexels-photo-3484689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
     {
       id: '3',
-      title: 'Beyond music, The BEATLES'
+      title: 'Beyond music, The BEATLES',
+      imageUrl: 'https://images.pexels.com/photos/3484689/pexels-photo-3484689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
     {
       id: '4',
-      title: 'In universites this methods will end your lonely nights!'
+      title: 'In universites this methods will end your lonely nights!',
+      imageUrl: 'https://images.pexels.com/photos/3617467/pexels-photo-3617467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
     {
       id: '5',
-      title: 'How could such a creature Survive in such a habitat? Can you explain :)'
+      title: 'How could such a creature Survive in such a habitat? Can you explain :)',
+      imageUrl: 'https://images.pexels.com/photos/3484689/pexels-photo-3484689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
     },
   ];
 }

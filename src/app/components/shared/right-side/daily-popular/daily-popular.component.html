@@ -1,13 +1,12 @@
 <div class="general-container">
   <nz-carousel class="carousel" [nzDots]="true" nzAutoPlay [nzAutoPlaySpeed]="3000" [nzEffect]="effect" #carousel>
     <div nz-carousel-content *ngFor="let item of slides">
-      <div class="row">
         <div class="item-container" *ngFor="let item_ of item">
           <span>{{item_.title}}<br></span>
-
+          <div class="card-image" [ngStyle]="{'background-image': 'url('+ item_.imageUrl +')'}"></div>
+          <div class="blur-effect"></div>
           <a href="#"><br><br> Read More</a>
         </div>
-      </div>
     </div>
   </nz-carousel>
 </div>

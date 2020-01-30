@@ -3,6 +3,7 @@
   width: 95%;
   height: 600px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .category{
   width: 100%;  

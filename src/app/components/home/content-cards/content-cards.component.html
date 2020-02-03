@@ -1,10 +1,18 @@
-<div class="complete-container">
-  <div class="cards-container">
-    <app-card [cards] = "cards"></app-card>
+<div class="holder">
+  <div class="complete-container">
+    <div class="cards-container">
+      <app-card [cards] = "cards"></app-card>
+  
+      <div class="load-more">
+        <a href="#" class="load-button">Load More</a>
+      </div>
+    </div>
+  
+    <div class="right-side-container">
+      <app-right-side></app-right-side>
+    </div>
   </div>
-
-  <div class="right-side-container">
-    <app-right-side></app-right-side>
-  </div>
+  
+  <app-footer></app-footer>
 </div>
 

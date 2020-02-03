@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-12 col-md-4" *ngFor = "let card of cards">
+  <div class="col-12 col-md-6" *ngFor = "let card of cards">
     <div class="card" (click) = "navigateURL(card.title)" matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
     [matRippleRadius]="radius" [matRippleColor]="color">
       <div class="category">

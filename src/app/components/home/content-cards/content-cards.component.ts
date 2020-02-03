@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-content-cards',
@@ -9,10 +9,27 @@ export class ContentCardsComponent implements OnInit {
 
   constructor() { }
 
+  isSmall:boolean = false;
+  screenWidth:number;
   ngOnInit() {
+    this.screenWidth =  window.innerWidth;
+    if(this.screenWidth < 900){
+      this.isSmall = true;
+    }
+    else{
+      this.isSmall = false;
+    }
   }
 
-
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    if(event.target.innerWidth < 900){
+      this.isSmall = true;
+    }
+    else{
+      this.isSmall = false;
+    }
+  }
   cards = [
     {
       id: '1',

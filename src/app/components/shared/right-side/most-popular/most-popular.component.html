@@ -4,15 +4,30 @@
   </div>
 
   <div class="item-container">
-    <div class="item-holder" *ngFor="let card of mostPopularCards" matRipple [matRippleCentered]="centered" [matRippleDisabled]="disabled" [matRippleUnbounded]="unbounded"
-    [matRippleRadius]="radius" [matRippleColor]="color">
-    <div class="top-bottom-marginer"></div>
+    <div
+      class="item-holder"
+      *ngFor="let card of mostPopularCards"
+      matRipple
+      [matRippleCentered]="centered"
+      [matRippleDisabled]="disabled"
+      [matRippleUnbounded]="unbounded"
+      [matRippleRadius]="radius"
+      [matRippleColor]="color"
+    >
+      <div class="top-bottom-marginer"></div>
       <div class="row">
         <div class="left-right-marginer"></div>
-        <div class="image-item" [ngStyle]="{'background-image': 'url('+ card.pictureUrl +')'}"></div>
+        <div
+          class="image-item"
+          [ngStyle]="{ 'background-image': 'url(' + card.pictureUrl + ')' }"
+        ></div>
         <div class="content-item">
-          <div class="category-item"><p>{{card.categoryName}}</p></div>
-          <div class="title-item"><p>{{card.title}}</p></div>
+          <div class="category-item">
+            <p>{{ card.categoryName }}</p>
+          </div>
+          <div class="title-item">
+            <p>{{ card.title }}</p>
+          </div>
         </div>
         <div class="left-right-marginer"></div>
       </div>

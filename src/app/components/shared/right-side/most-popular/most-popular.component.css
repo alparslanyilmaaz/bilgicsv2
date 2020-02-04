@@ -10,7 +10,7 @@
 
 .title p {
   font-family: 'Montserrat', serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 10px;
@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 .left-right-marginer{
-  width: 60px;
+  width: 30px;
   height: 100%;
 }
 .top-bottom-marginer{
@@ -29,8 +29,8 @@
 }
 
 .image-item{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 500px;
   background-position: center;
   background-size: cover;
@@ -43,7 +43,7 @@
 
 .category-item p{
   font-family: 'Montserrat', serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -51,6 +51,6 @@
 
 .title-item p{
   font-family: 'Montserrat', serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
 }

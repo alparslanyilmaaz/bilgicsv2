@@ -1,0 +1,52 @@
+.general-holder{
+  width: 100%;
+  height: 100%;
+}
+
+.image{
+  width: 100%;
+  height: 55%;
+  min-height: 55%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/3633115/pexels-photo-3633115.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+.left{
+  width: 10%;
+}
+
+.right{
+  width: 90%
+}
+
+.content-holder{
+  margin-top: 44px;
+  margin-left: 50px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.category{
+  font-family: 'Montserrat', serif;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.date{
+  margin-left: 20px;
+  font-family: 'Montserrat', serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.title{
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  font-size: 38px;
+  padding: 0;
+  margin: 0;
+}

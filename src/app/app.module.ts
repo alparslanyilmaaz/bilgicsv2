@@ -28,6 +28,9 @@ import { DailyPopularComponent } from './components/shared/right-side/daily-popu
 import { MostPopularComponent } from './components/shared/right-side/most-popular/most-popular.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { TagsComponent } from './components/shared/right-side/tags/tags.component';
+import { ContentHolderComponent } from './components/content/content-holder/content-holder.component';
+import { ContentDetailComponent } from './components/shared/content-detail/content-detail.component';
+import { ContentLeftSocialMediaIconsComponent } from './components/shared/content-detail/content-left-social-media-icons/content-left-social-media-icons.component';
 
 registerLocaleData(tr);
 
@@ -46,6 +49,9 @@ registerLocaleData(tr);
     MostPopularComponent,
     FooterComponent,
     TagsComponent,
+    ContentHolderComponent,
+    ContentDetailComponent,
+    ContentLeftSocialMediaIconsComponent,
    
   ],
   imports: [

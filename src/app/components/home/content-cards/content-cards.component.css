@@ -10,7 +10,7 @@
 .cards-container{
   width: 75%;
   margin-left: 40px;
-  margin-top: 80px;
+  border-right: 1px solid #b1b1b1;
 }
 
 .right-side-container{

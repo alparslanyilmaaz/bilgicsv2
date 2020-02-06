@@ -4,11 +4,11 @@
 
 <h6>Used Technologies</h6>
 
-<ul>
-  Bootstrap
-  Ng-Zorro
-  Angular Material Library
-</ul>
+
+  Bootstrap  
+  Ng-Zorro  
+  Angular Material Library  
+
 
 ### Screens
 

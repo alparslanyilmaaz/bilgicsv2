@@ -1,10 +1,12 @@
 # IeltsPrep
 
-This is a project of bilgics website.
+This is a example blog website. 
 
-## Todos
+## Used Technologies
 
-Api has to create. this is not work with api. All datas has to come dynamic.
+Bootstrap
+Ng-Zorro
+Angular Material Library
 
 
 

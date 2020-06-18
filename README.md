@@ -10,7 +10,6 @@ Example responsive blog website contains homepage and content page. Developed by
   
 ### 1. Homepage
 <img src = "https://github.com/alparslanyilmaaz/bilgicsv2/blob/master/screenshots/home-1.png">
-<img src = "https://github.com/alparslanyilmaaz/bilgicsv2/blob/master/screenshots/home-2.png">
 <img src = "https://github.com/alparslanyilmaaz/bilgicsv2/blob/master/screenshots/home-3.png">
 
 ### 2. Content
